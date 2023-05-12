@@ -1,0 +1,49 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@font-face {
+  font-family: "CalSans";
+  src: url("../fonts/CalSans-SemiBold.eot");
+  src: url("../fonts/CalSans-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/CalSans-SemiBold.woff2") format("woff2"), url("../fonts/CalSans-SemiBold.woff") format("woff"),
+    url("../fonts/CalSans-SemiBold.ttf") format("truetype"),
+    url("../fonts/CalSans-SemiBold.svg#CalSans-SemiBold") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #666666;
+}
+
+[class*="__container"] {
+  max-width: 75em;
+  margin: 0 auto;
+}
+/*------------ PC --------------*/
+@media (max-width: 74.9988em) {
+  [class*="__container"] {
+    max-width: 60.625em;
+  }
+}
+/*--------- TABLET --------------*/
+@media (max-width: 61.9988em) {
+  [class*="__container"] {
+    max-width: 46.875em;
+  }
+}
+/*--------- MOBILE --------------*/
+@media (max-width: 47.9988em) {
+  [class*="__container"] {
+    max-width: none;
+    padding: 0px 15px;
+  }
+}
+/*---------- MOBILE SMALL --------*/
+@media (max-width: 29.9988em) {
+  [class*="__container"] {
+    max-width: none;
+  }
+}
