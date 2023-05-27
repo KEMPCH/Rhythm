@@ -902,8 +902,8 @@ body {
     transform: translate(0px, 0px);
     justify-content: center;
     position: relative;
+    margin-top: 25px;
     bottom: 0;
-    padding-top: 30px;
   }
 }
 
